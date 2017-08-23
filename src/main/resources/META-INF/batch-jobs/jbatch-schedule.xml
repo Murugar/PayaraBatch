@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<job id="testjob" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+    <properties>
+        <property name="outfile" value="output.txt"/>
+    </properties>
+    <step id="teststep">
+        <batchlet ref="com.iqmsoft.payara.jbatch.ejb.schedule.MyBatchlet"/>
+    </step>
+</job>
